@@ -1,0 +1,59 @@
+/*!
+Theme Name: ...
+Description: ...
+Author: ...
+Author URI: ...
+Version: ...
+*/
+
+
+
+/*----------------------------------------------------------------------------
+  Developer Notes
+----------------------------------------------------------------------------*/
+
+// COMMENTS
+// Use search to find some useful information
+//    'COMMENT'     ->  explains the logic behind the code.
+//    'POTA'        ->  a defintion that requires attention or is otherwise
+//                      incomplete.
+//    The following colors are also used in both scss and html to indicate an
+//    incomplete item or one that otherwise needs attention. None of these
+//    colors should be present when a site goes live.
+//                  ->  'thistle'
+//                  ->  'crimson'
+//                  ->  'navy'
+//                  ->  'indigo'
+//                  ->  'lime'
+
+// STYLESHEET INCLUDES should be imported in this order
+//    Reset         ->  reset before styling
+//    Variables     ->  colors, fonts, and other variables
+//    Mixins        ->  all mixins except those related to breakpoints
+//    Responsive    ->  mixins and breakpoints for responsive design
+//    Base          ->  styling for all html elements used in the site
+//    Layout        ->  general layout styles (e.g. header, footer, wraps)
+//    Vendor        ->  style overrides for third-party vendors such as Gravity Forms
+//    Text          ->  text styles (specifically as they related to columns and pages, not images)
+//    Components    ->  custom styles that are reusable
+
+
+// PIXEL-PERFECT DESIGN
+// Getting everything sized as per the design is based on 1366px by 768px and up
+
+
+
+/*----------------------------------------------------------------------------
+  Import Stylesheet Includes
+----------------------------------------------------------------------------*/
+
+@import "_reset";
+@import "_variables";
+@import "_mixins";
+@import "_responsive";
+@import "_base";
+@import "_layout";
+@import "_vendor";
+@import "_text";
+@import "_components";
+@import "_zasu";

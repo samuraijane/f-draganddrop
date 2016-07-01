@@ -1,0 +1,20 @@
+/*----------------------------------------------------------------------------
+  Mixins
+----------------------------------------------------------------------------*/
+
+@mixin transition($time) {
+  -webkit-transition: all $time ease;
+  -moz-transition: all $time ease;
+  -ms-transition: all $time ease;
+  -o-transition: all $time ease;
+  transition: all $time ease;
+}
+
+@mixin input-placeholder {
+  input::-webkit-input-placeholder {@content}
+  input:-moz-placeholder           {@content}
+  input::-moz-placeholder          {@content}
+  input:-ms-input-placeholder      {@content}
+  input::-ms-input-placeholder     {@content}
+  input:placeholder                {@content}
+}

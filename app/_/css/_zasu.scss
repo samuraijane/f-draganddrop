@@ -1,0 +1,28 @@
+.outer-w {
+
+}
+
+.inner-w {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+.box {
+  border:1px solid #ccc;
+  display: inline-block;
+  height:120px;
+  margin: 20px 6px;
+  padding: 9px 0;  // vertically center child
+  vertical-align: middle;
+  width:120px;
+ }
+
+.imagery {
+  display: inline-block;
+  margin: 0 6px;
+}
+ img {
+   height: auto;
+   width: 100px;
+ }

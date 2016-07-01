@@ -1,0 +1,47 @@
+/*----------------------------------------------------------------------------
+  Responsive Mixins
+----------------------------------------------------------------------------*/
+
+@mixin responsive($size) {
+	@if $size == hoover { @media only screen and (min-width: $hoover) { @content; } }
+    @else if $size == roosevelt { @media only screen and (min-width: $roosevelt) { @content; } }
+	@else if $size == truman { @media only screen and (min-width: $truman) { @content; } }
+    @else if $size == barkley { @media only screen and (min-width: $barkley) { @content; } }
+	@else if $size == eisenhower { @media only screen and (min-width: $eisenhower) { @content; } }
+	@else if $size == kennedy { @media only screen and (min-width: $kennedy) { @content; } }
+	@else if $size == johnson { @media only screen and (min-width: $johnson) { @content; } }
+    @else if $size == humphrey { @media only screen and (min-width: $humphrey) { @content; } }
+    @else if $size == mccormack { @media only screen and (min-width: $mccormack) { @content; } }
+	@else if $size == nixon { @media only screen and (min-width: $nixon) { @content; } }
+	@else if $size == ford { @media only screen and (min-width: $ford) { @content; } }
+	@else if $size == carter { @media only screen and (min-width: $carter) { @content; } }
+	@else if $size == reagan { @media only screen and (min-width: $reagan) { @content; } }
+	@else if $size == hbush { @media only screen and (min-width: $hbush) { @content; } }
+	@else if $size == clinton { @media only screen and (min-width: $clinton) { @content; } }
+	@else if $size == wbush { @media only screen and (min-width: $wbush) { @content; } }
+	@else if $size == obama { @media only screen and (min-width: $obama) { @content; } }
+}
+
+
+
+/*----------------------------------------------------------------------------
+  Responsive Breakpoints
+----------------------------------------------------------------------------*/
+
+$hoover: 375px;
+$roosevelt: 414px;
+$truman: 480px;
+$barkley: 550px;
+$eisenhower: 620px;
+$kennedy: 680px;
+$johnson: 768px;
+$humphrey: 800px;
+$mccormack: 850px;
+$nixon: 900px;
+$ford: 1024px;
+$carter: 1100px;
+$reagan: 1200px;
+$hbush: 1300px;
+$clinton: 1400px;
+$wbush: 1500px;
+$obama: 1600px;
